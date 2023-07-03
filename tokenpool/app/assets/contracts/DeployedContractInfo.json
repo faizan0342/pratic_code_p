@@ -1,0 +1,32 @@
+
+{
+  "networks": {
+      "mainnet": {
+              "contracts": {
+                "_0xbitcointoken": {"name":"0xBitcoinToken", "blockchain_address":"0x2BF91c18Cd4AE9C2f2858ef9FE518180F7B5096D"},
+                "batchedpayments": {"name":"BatchedPayments", "blockchain_address":"0x722C7207cA852a62745B2e029d6F513304B6cd1b"},
+                "mintforwarder":{"name":"MintHelper", "blockchain_address":"0x3e5c32f87fcFD30138a34cD184cE270C1d448Fb2"},
+                "miningking":{"name":"MiningKing", "blockchain_address":"0x0b98f937f6edd6f66b0f0a210d3dcd8ec1063cb6"},
+                "doubleKingsReward":{"name":"DoubleKingsReward", "blockchain_address":"0xfd6be1247a5d32ee83aad9d1b09b5df9e2988d6f"}
+              }
+            },
+      "staging": {
+              "contracts": {
+                "_0xbitcointoken": {"name":"0xBitcoinToken", "blockchain_address":"0x335Ad79bC392062bDB9F98086D4dFe169e2273a1"},
+                "batchedpayments": {"name":"BatchedPayments", "blockchain_address":"0xC40423f6C9605d9384D4AA15685Db8ac4948b0A5"},
+                "mintforwarder":{"name":"MintHelper", "blockchain_address":"0xa68D4C1e3dE1B721ad1356BbF827d6bc8Cef304F"},
+                "miningking":{"name":"MiningKing", "blockchain_address":"0x2d2010FCD03390DF8886FB18A32e80614e0860CB"},
+                "doubleKingsReward":{"name":"DoubleKingsReward", "blockchain_address":"0x89aDee2CF5b820A0F5683f94EABc00C3D6366d50"}
+              }
+            },
+      "testnet": {
+              "contracts": {
+                "_0xbitcointoken": {"name":"0xBitcoinToken", "blockchain_address":"0x4fb6715cf6118746c1f08f1d739e17f2b12aaba8"},
+                "batchedpayments": {"name":"BatchedPayments", "blockchain_address":"0x8abA3900567Dff202b634eCf98E71A6Dd251daF7"},
+                "mintforwarder":{"name":"MintHelper", "blockchain_address":"0x6ffcad89b80bfa3064437c3fbaefef31b1e90f85"},
+                "miningking":{"name":"MiningKing", "blockchain_address":"0x2a20403757ffa6b4e5c613026b7a7308f8722db7"},
+                "doubleKingsReward":{"name":"DoubleKingsReward", "blockchain_address":"0x40e690e430710cfca6583b24d8c187b85b7fc1a7"}
+              }
+            }
+    }
+}
